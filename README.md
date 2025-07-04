@@ -31,20 +31,20 @@ It highlights how domain knowledge, practical EDA, and simple rule-based profili
 
 ## Analysis Steps
 
-### 1️⃣ Exploratory Data Analysis (EDA)
+###  Exploratory Data Analysis (EDA)
 
 - Summary statistics for numerical fields.
 - Distribution checks for outliers, skews, and realistic ranges.
 - Category frequency checks for occupation, transaction type, device usage, etc.
 
-### 2️⃣ Bivariate Checks & Rule Logic
+###  Bivariate Checks & Rule Logic
 
 - Compare income vs. transaction amount.
 - Check device consistency and city match.
 - Monitor transaction timing and frequency patterns.
 - Cross-check sender relationships and destinations.
 
-### 3️⃣ Risk Flags & Status
+### Risk Flags & Status
 
 - Flags for low income + high spend, low credit + high spend, new accounts with large sums, students sending large amounts, suspicious destination countries, unknown relationships, device/location mismatches, and more.
 - Multi-flag logic to escalate suspicious transactions.
@@ -81,8 +81,3 @@ This project demonstrates a clear, defensible approach to transaction risk profi
 
 Data Analysis • Banking • Fraud Detection • Risk Profiling • Anomaly Detection • EDA • Python
 
----
-
-## Contact
-
-For questions or collaboration, connect with me on [LinkedIn](#) or open an issue in this repository.
